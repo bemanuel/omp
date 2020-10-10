@@ -5,7 +5,7 @@ FROM php:7.2-alpine as builder
 LABEL maintainer="Lucas G. Diedrich <lucas.diedrich@gmail.com>"
 WORKDIR /tmp/
 ENV COMPOSER_ALLOW_SUPERUSER=1 \
-        OMP_VERSION="3_1_2-1" \
+        OMP_VERSION="3_2_1-1" \
         PACKAGES="curl nodejs npm git" \
         EXCLUDE="dbscripts/xml/data/locale/en_US/sample.xml					\
         dbscripts/xml/data/locale/te_ST								\
